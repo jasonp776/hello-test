@@ -13,5 +13,8 @@ pipeline {
                """
          }
       }
+      stage('Next') {
+           ls -l
+      }
    }
 }
