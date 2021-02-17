@@ -14,7 +14,9 @@ pipeline {
          }
       }
       stage('Next') {
-           ls -l
+          steps {
+             ls -l
+          }
       }
    }
 }
