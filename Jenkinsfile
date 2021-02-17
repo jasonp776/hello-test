@@ -15,7 +15,7 @@ pipeline {
       }
       stage('Next') {
           steps {
-             ls -l
+             echo "here"
           }
       }
    }
